@@ -19,3 +19,12 @@ Due to the large number of files, it is not possible to process them all at once
 
 These three scripts were originally created as an applet, but they can also be run without being made into an applet.
 Due to the restrictions on the original UKB data, which require an application to access, we regret that we are unable to provide it directly.
+
+
+猜测input_file文件的内容应该为以下格式
+ukb23148_c1_b1_v1.vcf.gz
+
+c为染色体1-22 XY
+b为划分的人群1-96
+v的话应该都是v1
+
