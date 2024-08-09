@@ -21,6 +21,11 @@ These three scripts were originally created as an applet, but they can also be r
 Due to the restrictions on the original UKB data, which require an application to access, we regret that we are unable to provide it directly.
 
 
+
+
+
+记得修改QC_Step1.sh的project名  project-GbbBx28JVkz9f3y3zV6Qb96q 和 JDK的文件名 file-Gpp8958JVkzJZvb1qPBBgPvj
+
 猜测input_file文件的内容应该为以下格式
 ukb23148_c1_b1_v1.vcf.gz
 
