@@ -28,3 +28,20 @@ c为染色体1-22 XY
 b为划分的人群1-96
 v的话应该都是v1
 
+
+文件生成脚本
+#!/bin/bash
+
+output_file="file_list.txt"
+
+# 清空或创建输出文件
+> $output_file
+
+# 生成文件列表
+for chr in {1..22}; do
+  for block in {1..10}; do
+    echo "ukb23148_c${chr}_b${block}_v1.vcf.gz" >> $output_file
+  done
+done
+
+echo "文件列表已生成到 $output_file"
